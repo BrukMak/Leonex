@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-blue-950/90 mix-blend-multiply" />
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-20 py-20 md:py-32 lg:py-40 flex flex-col justify-center h-screen">
+      <div className="mx-auto px-4 sm:px-6 lg:px-20 py-20 md:py-32 lg:py-40 flex flex-col justify-center h-screen">
         {/* decorative pattern – bottom-right only */}
         <div className="hidden lg:block absolute bottom-0 right-0 -z-10">
           <Image

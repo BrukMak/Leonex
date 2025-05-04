@@ -15,9 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className="font-inter bg-gray-700 bg-white">
+        className="font-inter bg-gray-700 bg-white flex flex-col min-h-screen">
           <Header />
-        {children}
+          <main className="flex-grow">
+
+            {children}
+          </main>
         <Footer />
       </body>
     </html>

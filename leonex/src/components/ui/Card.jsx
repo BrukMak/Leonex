@@ -7,8 +7,8 @@ function Card(item) {
         <Image
         src={item.logo}
         alt="Logo"
-        width={50}
-        height={50}
+        width={120}
+        height={120}
         className="mb-4"
          />
       <h2 className="text-gray-600">{item.title}</h2>
